@@ -2,8 +2,7 @@
 
 rev=$(git rev-parse --short HEAD)
 
-mkdir dist
-cd dist
+cd public
 
 git init
 git config user.name "Zarema Khalilova"
@@ -12,7 +11,7 @@ git config user.email "zarema.khalilova@gmail.com"
 git remote add upstream "https://$GH_TOKEN@github.com/Zmoki/zarema.git"
 git fetch upstream && git reset upstream/gh-pages
 
-touch index.html
+touch .
 
 git add -A .
 git commit -m "rebuild pages at ${rev}"
