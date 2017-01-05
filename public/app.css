@@ -8,6 +8,13 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  background: #fff;
+  color: #454545;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
 }
 
 .live-images {
