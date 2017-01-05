@@ -1,0 +1,71 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.live-images {
+  max-width: 100%;
+
+  position: relative;
+
+  overflow: hidden;
+
+  padding: 15px;
+}
+
+.live-images__frame {
+  max-width: 100%;
+
+  position: absolute;
+  top: 15px;
+  left: 15px;
+
+  opacity: 0;
+
+  animation-name: preview;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.live-images__frame_1 {
+  position: relative;
+  top: 0;
+  left: 0;
+
+  animation-delay: 2s;
+}
+
+.live-images__frame_2 {
+  animation-delay: 4s;
+}
+
+.live-images__frame_3 {
+  animation-delay: 6s;
+}
+
+.live-images__frame_4 {
+  animation-delay: 8s;
+}
+
+@keyframes preview {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  26% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
