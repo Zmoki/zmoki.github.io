@@ -1,0 +1,19 @@
+{
+  "name": "zarema",
+  "version": "0.0.0",
+  "description": "The official site of Zarema",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zmoki/zarema.git"
+  },
+  "author": "Zarema Khalilova",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zmoki/zarema/issues"
+  },
+  "homepage": "https://github.com/Zmoki/zarema#readme"
+}
