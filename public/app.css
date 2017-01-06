@@ -37,7 +37,7 @@ html, body {
   opacity: 0;
 
   animation-name: preview;
-  animation-duration: 8s;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
@@ -47,19 +47,19 @@ html, body {
   top: 0;
   left: 0;
 
-  animation-delay: 2s;
+  animation-delay: 1.5s;
 }
 
 .live-images__frame_2 {
-  animation-delay: 4s;
+  animation-delay: 3s;
 }
 
 .live-images__frame_3 {
-  animation-delay: 6s;
+  animation-delay: 4.5s;
 }
 
 .live-images__frame_4 {
-  animation-delay: 8s;
+  animation-delay: 6s;
 }
 
 @keyframes preview {
