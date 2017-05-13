@@ -1,5 +1,5 @@
 {
-  "name": "zarema",
+  "name": "zmoki",
   "version": "0.0.0",
   "description": "The official site of Zarema",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Zmoki/zarema.git"
+    "url": "git+https://github.com/Zmoki/zmoki.git"
   },
   "author": "Zarema Khalilova",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Zmoki/zarema/issues"
+    "url": "https://github.com/Zmoki/zmoki/issues"
   },
-  "homepage": "https://github.com/Zmoki/zarema#readme"
+  "homepage": "https://github.com/Zmoki/zmoki#readme"
 }
